@@ -29,7 +29,7 @@ def precedance(character):
         return 1
     else:
         return -1
-s1 = Stack(-1,5)
+s1 = Stack(-1,100)
 def infix_to_postfix(expression):
     for ch in expression:
         if (ch.isalnum()):
